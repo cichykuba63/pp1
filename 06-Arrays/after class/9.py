@@ -1,3 +1,8 @@
+# Display both arrays and the result of comparison. Sample result:
+# Array1: water book sky
+# Array2: water book sky
+# Comparison: arrays are the same
+
 def compare(array1, array2):
     comparison = None
 

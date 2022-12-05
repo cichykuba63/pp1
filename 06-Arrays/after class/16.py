@@ -1,3 +1,9 @@
+# Define a median(array) function that returns the median of the given array of numbers. 
+# Do not use built-in functions. The median is the middle value in the ordered sequence of numbers 
+# Then, using the defined function, calculate and display the median for the following values:
+# a.	[1,0,9,4,6]
+# b.	[6,8,3,1,0,5,7]
+
 from math import *
 
 def median(array):

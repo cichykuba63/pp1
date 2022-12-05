@@ -1,3 +1,7 @@
+# Write a program to find the second largest element in an array. Sample result:
+# Array: [5,1,9,6,1]
+# Result: 6
+
 arr = [5, 1, 9, 6, 1, 20, 10, 5, 4, 2]
 arr1 = []
 

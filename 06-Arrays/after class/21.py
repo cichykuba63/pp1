@@ -1,3 +1,6 @@
+# The array contains integer numbers from 1 to 999. 
+# Write a program that displays elements of the array formatted as below.
+
 arr = [1, 5, 20, 100, 500, 620, 920, 999]
 
 print()
