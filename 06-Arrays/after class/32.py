@@ -21,8 +21,5 @@ def transpose_matrix(m):
 
 function_value = transpose_matrix([1, 2, 3])
 
-for element in function_value:
-    for argument in element:
-        print(argument, end = " ")
-    print()
+print(function_value)
         
