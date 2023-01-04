@@ -1,0 +1,24 @@
+[
+    {
+        "student1": {
+            "firstname": "Andrzej",
+            "surname": "Duda",
+            "age": 26,
+            "married": false,
+            "phone": {
+                "workphone": "604259201",
+                "homephone": "602010241"
+            }
+        },
+        "student2": {
+            "firstname": "Marian",
+            "surname": "Paździoch",
+            "age": 30,
+            "married": true,
+            "phone": {
+                "workphone": "432819203",
+                "homephone": "128219321"
+            }
+        }
+    }
+]

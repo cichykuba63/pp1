@@ -1,8 +1,6 @@
-# Write a program that writes to a file ICAO.txt the contents of a dictionary containing ICAO spelling alphabet. 
-
-letters = {
+icao = {
     "A": "Alfa",
-    "B": "Bravo",
+    "B": "Bravo", 
     "C": "Charlie",
     "D": "Delta",
     "E": "Echo",
@@ -21,10 +19,24 @@ letters = {
     "R": "Romeo",
     "S": "Sierra",
     "T": "Tango",
-    "U": "Uniform"
+    "U": "Uniform",
+    "V": "Victor",
+    "W": "Whiskey",
+    "X": "Xray",
+    "Y": "Yankee",
+    "Z": "Zulu",
+    "1": "One",
+    "2": "Two",
+    "3": "Three",
+    "4": "Four",
+    "5": "Five",
+    "6": "Six",
+    "7": "Seven",
+    "8": "Eight",
+    "9": "Nine",
+    "0": "Zero"
 }
 
 with open("ICAO.txt", "w") as file:
-    for k, v in letters.items():
-        file.write(k + " " + v + "\n")
-
+    for k, v in icao.items():
+        file.write(f"{k} {v}\n")

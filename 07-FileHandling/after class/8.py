@@ -1,10 +1,5 @@
-# Create a program that saves to a text file, numbers in the range of <1,10> with their second and third power.
+import random
 
-with open("powerintegers.txt", "w") as file:
-    for number in range(1, 11):
-        for power in range(1, 4):
-            powered_number = number
-            powered_number **= power
-            file.write(str(powered_number) + ", ")
-        
-        file.write("\n")
+with open("integers.txt", "w") as file:
+    for _ in range(50):
+        file.write(f"{random.randint(100, 999)}\n")

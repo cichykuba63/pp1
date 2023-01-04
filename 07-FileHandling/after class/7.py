@@ -1,7 +1,9 @@
-# Create a program that writes to a text file integer numbers in the range of <1,50>, every number in a 
-# separate line.
+with open("MeatAndFish.txt") as file:
+    content1 = file.read()
 
-with open("integers.txt", "w") as file:
-    for number in range(1, 51):
-        number = str(number)
-        file.write(number + "\n")
+with open("GrainsAndBread.txt") as file1:
+    content2 = file1.read()
+
+with open("shoppinglist.txt", "w") as file2:
+    file2.write(content1)
+    file2.write(content2)

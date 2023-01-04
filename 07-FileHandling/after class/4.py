@@ -1,10 +1,12 @@
-# Find any text file on the Internet and download it to your computer.
-# Then write a program that copies the contents of this file to the copy.txt file. 
-# Copy the contents of the file as a whole. 
-# Finally, open both files in any text editor and check that their contents are the same.
+count = 0
 
-with open("file.txt") as file:
-    content = file.read()
+with open("numbers1.txt", "w") as file:
+    for i in range(1, 101):
+        file.write(f"{i}\n")
 
-with open("copy.txt", "w") as file1:
-    file1.write(content)
+with open("numbers1.txt") as file:
+    for line in file:
+        if count != 0 and count % 5 == 0:
+            input("Enter any key to proceed.")
+        count += 1
+        print(line.strip())

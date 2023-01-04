@@ -1,10 +1,6 @@
-# The following program displays the contents of a file, line by line:
-# f = open("filename.txt")
-# for line in f:
-#      print(line, end="")
-# f.close()
-# Rewrite the program using the "with ..." as construct. Then check that the program is working properly.
+file = open("shopping.txt", "a", encoding = "utf-8")
 
-with open("filename.txt") as file:
-    for line in file:
-        print(line, end = "")
+user_choice = input("Add product: ")
+file.write(user_choice + '\n')
+
+file.close()
