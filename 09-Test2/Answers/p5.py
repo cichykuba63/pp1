@@ -12,4 +12,4 @@ def f(first_letter, last_letter):
                     words_last_letter += 1
 
     return words_first_letter, words_last_letter
-
+print(f('w','d'))
